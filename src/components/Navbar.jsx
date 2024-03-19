@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import {Link} from 'react-router-dom'
 const Navbar = () => {
     const [nav, setNav]= useState(false)
 
@@ -13,8 +14,8 @@ const Navbar = () => {
         EchoSparkSolutions
       </h1>
       <ul className='hidden md:flex'>
-        <li className="p-4">Home</li>
-        <li className="p-4">About</li>
+        <Link to="/" className="p-4">Home</Link>
+        <Link to="/about"  className="p-4">About</Link>
         <li className="p-4">Services</li>
         <li className="p-4">Products</li>
         <li className="p-4">Contact Us</li>
