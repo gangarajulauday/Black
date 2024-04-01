@@ -10,7 +10,7 @@ const Hero = () => {
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'> We Provide </p>
                 <ReactTyped 
                 className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-                strings={['Custom Solutions','CostEffective Solutions','IT InfraStructure']} typeSpeed={160} backSpeed={180} loop/>
+                strings={['Custom Solutions','Effective Solutions','IT InfraStructure']} typeSpeed={160} backSpeed={190} loop/>
             </div>
             <p className='md-:text-2xl text-xl font-bold text-gray-500'>We Manage your IT Solutions, provide Client Centric Approach and Tailored Solutions.</p>
             <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>

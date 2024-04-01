@@ -2,6 +2,9 @@ import React from 'react'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/Pages/About';
+import Services from './components/Pages/Services';
+import Products from './components/Pages/Products';
+import ContactUs from './components/Pages/ContactUs';
 import { Analytics } from './components/Analytics';
 import { Newsletter } from './components/Newsletter';
 import Cards from './components/Cards';
@@ -39,7 +42,11 @@ function App() {
       <div>
       <Routes>
         <Route path="/" element={<Layout><Home/></Layout>} /> 
-        <Route path="/About" element={<Layout><About /></Layout>} /> {/* Add other routes here */}
+        <Route path="/About" element={<Layout><About /></Layout>} />
+        <Route path="/Services" element={<Layout><Services /></Layout>} />
+        <Route path="/Products" element={<Layout><Products /></Layout>} />
+        <Route path="/ContactUs" element={<Layout><ContactUs /></Layout>} />
+         {/* Add other routes here */}
       </Routes>
       </div>
   );

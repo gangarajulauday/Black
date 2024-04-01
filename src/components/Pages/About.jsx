@@ -13,16 +13,11 @@ export const About = () => {
             Our Story.
           </h1>
           <div className="flex justify-center items-center ">
-            <p className="md:text-2xl sm:text-2xl font-bold text-xl py-4">
-              Briefly describe the origin story of your IT consulting company.
-              When was it founded? What inspired the founders? Mention any key
-              milestones or achievements.
-            </p>
-          </div>
-          <p className="md-:text-2xl text-xl font-bold text-gray-500">
+          <p className="md-:text-2xl text-xl font-bold text-gray">
             Our Mission: Clearly state your company's mission. What problem do
             you solve for your clients? What impact do you strive to make?
           </p>
+          </div>
           <p>
             Our Values [Value 1]: [Explain what this value means to your company
             and how it guides your work.] [Value 2]: [Explain what this value
@@ -52,8 +47,7 @@ export const About = () => {
             and see how we can help you leverage technology to achieve your
             business goals.
           </p>
-          <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
-
+          
         </div>
       </div>
     </div>
